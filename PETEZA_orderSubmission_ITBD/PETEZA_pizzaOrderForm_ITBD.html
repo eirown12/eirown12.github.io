@@ -1,0 +1,240 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8" >
+    <title>Pizza Order Form</title>
+	<style type="text/css">
+    </style>
+</head>
+
+<body style="background-image: url('PETEZA_IMAGES_ITBD/background.gif');">
+	<link rel="stylesheet" type="text/css" href="PETEZA_IMAGES_ITBD/orderForm.css">
+	
+	<table style="background-image: url('PETEZA_IMAGES_ITBD/pizzagif.gif');">
+		<thead>
+			<tr>
+				<td><img src="PETEZA_IMAGES_ITBD/logo.jpg"></td>
+			</tr>
+			<th style="text-align: center" class="header" colspan="2">Pizza Order Form</th>
+			<tr>
+				<th class="details" colspan="3">Customer Details</th>
+			</tr>
+		</thead>
+		
+		<tbody>
+			<tr>
+				<td class="bold" colspan=3><label for="name">Full Name:</label></td>
+			</tr>
+			
+			<td class="box" colspan=2 style="text-align: center;" ><input type="text" name="first" size="40" placeholder="First Name" maxlength="30"></td>
+			<td class="box"><input type="text" name="last" size="40" placeholder="Last Name" maxlength="30"></td>
+			
+			<tr>
+				<td class="bold"><label>Contact Number:</label></td>
+				<td class="bold" colspan=2><label>&nbsp;Email Address:</label></td>
+			</tr>
+			
+			<td class="box" colspan=2 style="text-align: center;"><input type="text" size="30" placeholder="Contact Number" maxlength="50"></td>
+			<td class="box" ><input type="text" size="30" placeholder="Email address" maxlength="50"></td>
+			
+			<tr>
+				<td class="bold" colspan=3 style="text-align: center;"><label>Complete Address:</label></td>
+			</tr>
+			<td class="box" colspan=3 style="text-align: center;"><input type="text" size="30" placeholder="Home Address" maxlength="50"></td>
+			
+			<tr>
+				<td colspan=3 class="bold" style="text-align: center;><label for="name">How to get there?:</label></td>
+			</tr>
+			<td class="area" colspan=3><textarea rows="4" cols="50"></textarea></td>
+
+			
+			<tr><th class="details" colspan=3>Order Details</th></tr>
+			
+			<tr>
+				<tr>
+				<td colspan=4 style="text-align: center;"><label>Choose your order(s):</label>
+					<input type="checkbox">
+						<label>Burgers</label>
+					<input type="checkbox">
+						<label>Pasta</label><br>
+					<input type="checkbox">
+						<label>Fries</label>
+					<input type="checkbox">
+						<label>Drinks</label>
+				</td>
+				</tr>
+				<tr><th colspan=3></th></tr>
+				
+				<tr><th class="details" colspan=3>BURGERS</th></tr>
+				<tr><th colspan=3></th></tr>
+				
+				<tr>
+					<td colspan=3><img src="PETEZA_IMAGES_ITBD/burger.jpg"></td>
+				</tr>
+				<tr><th colspan=3></th></tr>
+				
+				<td colspan="3" style="text-align: center;"><label style="font-family: 'Arial Black'; color: lime;">Type of Patties:</label>
+					<select size="1">
+						<option value="single">Single Patty</option>
+						<option value="double">Double Patty</option>
+						<option value="triple">Triple Patty</option>
+						<option value="event">Monster Patty</option>
+					</select>
+					</tr>
+				</td>
+				
+				
+				<td colspan="3" style="text-align: center;"><option value="double"></option><label>Burger Add-ons:</label>
+					<input type="checkbox">
+						<label style="color: #F44E41">Bacon</label>
+					<input type="checkbox">
+						<label style="color: #F4D341">Cheese</label>
+					<input type="checkbox">
+						<label style="color: #70F441">Coleslaw</label><br>
+					<input type="checkbox">
+						<label style="color: #0C9F2A">Cucumber</label>
+					<input type="checkbox">
+						<label style="color: #F1C2FC">Onion</label>
+					<input type="checkbox">
+						<label style="color: #FF9232">Tomato</label>
+				</td>
+				
+			</tr>
+				
+			<td colspan=3 style="text-align: center;"><label>Quantity:&nbsp</label><input type="text" size="3" ></td>
+			<tr><th colspan=3></th></tr>
+			
+			<tr><th class="details" colspan=3>PASTA</th></tr>
+			<tr><th colspan=3></th></tr>
+			
+			<tr>
+				<td colspan=3><img src="PETEZA_IMAGES_ITBD/pasta.jpg"></td>
+			</tr>
+			<tr><th colspan=3></th></tr>
+			
+			<tr>
+				<td colspan="3" style="text-align: center;"><label style="font-family: 'Arial Black'; color: lime;">Pasta:</label>
+					<select size="1">
+						<option>Carbonara</option>
+						<option>Pesto</option>
+						<option>Spaghetti</option>
+					</select>
+					</tr>
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan=3 style="text-align: center;"><label>Pasta Add-ons:</label>
+					<input type="checkbox">
+						<label style="color: yellow">Extra cheese</label>
+					<input type="checkbox">
+						<label style="color: red">Extra Sauce</label><br>
+					Other add-ons&nbsp;<input type="text" size="10" ></td>
+			</tr>
+			
+			<td colspan=3 style="text-align: center;"><label>Quantity per box:&nbsp</label><input type="text" size="2" ></td>
+			
+			<tr><th class="details" colspan=3>FRIES</th></tr>
+			<tr><th colspan=3></th></tr>
+			
+			<tr>
+				<td colspan=3 style="text-align: center;"><img src="PETEZA_IMAGES_ITBD/fries.jpg"></td>
+			</tr>
+			<tr><th colspan=3></th></tr>
+			
+			
+			<tr>
+				<td colspan="3" style="text-align: center;"><label>Fries Size:</label>
+					<input type="radio">
+						<label style="color: yellow">S</label>
+					<input type="radio">
+						<label style="color: lime">M</label>
+					<input type="radio">
+						<label style="color: red">L</label>
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan="3"style="text-align: center;"><label style="font-family: 'Arial Black'; color: lime;">Flavor:</label>
+					<select size="1">
+						<option>Barbeque</option>
+						<option>Cheese</option>
+						<option>Sour & Cream</option>
+					</select>
+				</td>
+			</tr>
+			
+			<td colspan=3 style="text-align: center;"><label>Quantity:&nbsp</label><input type="text" size="2" ></td>
+			<tr><th colspan=3></th></tr>
+			
+			<tr><th class="details" colspan=3>DRINKS</th></tr>
+			<tr><th colspan=3></th></tr>
+
+			<tr>
+					<td colspan=3><img src="PETEZA_IMAGES_ITBD/drinks.jpg"></td>
+			</tr>
+			
+			<tr><th colspan=3></th></tr>
+			
+			<tr>
+				<td colspan="3" style="text-align: center;"><label style="font-family: 'Arial Black'; color: lime;">Drinks:</label>
+					<select size="1">
+						<option>Coke Zero</option>
+						<option>Root Beer</option>
+						<option>Sarsi</option>
+						<option>Nestea</option>
+						<option>Coke</option>
+						<option>Sprite</option>
+					</select>
+					</tr>
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan="3" style="text-align: center;"><label>Drinks Size:</label>
+					<input type="radio">
+						<label style="color: yellow">S</label>
+					<input type="radio">
+						<label style="color: lime">M</label>
+					<input type="radio">
+						<label style="color: red">L</label>
+				</td>
+			</tr>
+			<tr><th colspan=3></th></tr>
+			<tr><th colspan=3></th></tr>
+			
+			<td class="bold" colspan=3 style="text-align: center;">FEEDBACK:</td>
+			
+			<tr>
+				<td colspan=3 style="text-align: center;"><label for="name">Help us improve our order form by indicating your feedback!</label></td>
+			</tr>
+			<td colspan=3><textarea rows="4" cols="50"></textarea></td>
+			
+		</tbody>
+	
+			<tr>
+				<td style="text-align: right;"><label for="gender">Getting the order:</label></td>
+				<tr>
+					<td style="text-align: center;" colspan="2" style="text-align: left;">
+						<input  type="radio" id="pickup" name="order" value="male">
+							<label style="color: red" for="male">Pick-up</label><br>
+						<input type="radio" id="delivery" name="order" value="male">
+							<label style="color: yellow" for="male">Delivery</label>
+				</tr>
+				</td>
+			</tr>
+	
+	
+			<tfoot>
+				<tr>
+					<tr><th colspan=3></th></tr>
+					<tr><th colspan=3></th></tr>
+					<th colspan="3"><input type="submit" id="btn1" value="Submit Form"><input type="reset" id="btn1" value="Clear Form"></th>
+				</tr>
+			</tfoot>
+			
+	</table>
+
+
+</body>
+</html>
